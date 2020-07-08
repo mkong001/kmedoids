@@ -39,9 +39,3 @@ for line in patterns:
     # Append pattern to data list
     #data.append([pattern, pattern])
     data.append(pattern)
-
-# Test: Print the contents of dict
-for key in list(d.keys()):
-    print(key, ":", d[key])
-
-# print(data)

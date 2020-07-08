@@ -25,15 +25,10 @@ def occ(a, b, union):
     else:
         # calculate Ftotal
         for u in union:
-            #print(u)
             ftotal = ftotal + importpattern.d[u]
-            #print(ftotal)
         
         # calculate Docc
         for event in intersect:
-            #print(importpattern.d[event])
             docc = docc + (float(importpattern.d[event])/ftotal)
-            print(docc, float(importpattern.d[event])/ftotal)
-        
-        #print(docc)
+
         return docc
